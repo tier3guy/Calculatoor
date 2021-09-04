@@ -1,0 +1,83 @@
+/*Google Fonts Linked*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto Slab', serif;
+}
+
+body{
+  height: 100vh;
+  background-image: url('./Asset/bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  color: #542E71;
+  font-size: 4em;
+  margin-top: 30px;
+}
+
+.container{
+  position: relative;
+  background: #f2f2f2;
+  width: 50%;
+  min-height: 50vh;
+  margin: auto;
+  padding: 2em;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.678) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#screen{
+  text-align: right;
+  outline: none;
+  color: rgb(71, 114, 255);
+  padding: 20px;
+  border-radius: 7px;
+  border: none;
+  width: 100%;
+  font-size: 2em;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(219, 219, 219, 0.5) -3px -3px 6px 1px inset;
+}
+
+button{
+  background: transparent;
+  width: 100%;
+  border: none;
+  color: #542E71;
+  padding: 20px;
+  font-size: 1.8em;
+  margin: 0px;
+  transition: all 0.3s;
+}
+
+button:hover{
+  background: rgba(86, 238, 86, 0.795);
+}
+.custom:hover{
+  background: rgba(247, 94, 47, 0.685);
+}
+
+.btns{
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25% ;
+}
+
+.button_div{
+  margin-top: 1em;
+  background: smokewhite;
+}
+
+@media only screen and (max-width : 750px)  {
+  .container{
+    width: 80%;
+  }
+}
